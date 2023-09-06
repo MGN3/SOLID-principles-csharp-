@@ -2,20 +2,21 @@ namespace Liskov
 {
     public abstract class Employee
     {
-        public string Fullname { get; set; }
-        public int HoursWorked { get; set; }
-        public int ExtraHours {get;set;}
+        protected string Fullname { get; set; }
+        protected int HoursWorked { get; set; }
 
-        public  Employee(string fullname, int hoursWorked, int ExtraHours)
+
+        public  Employee(string fullname, int hoursWorked)
         {
-            Fullname = fullname;
-            HoursWorked = hoursWorked;
-        }  
+            this.Fullname = fullname;
+            this.HoursWorked = hoursWorked;
+        }
+		public string GetFullname() {
+			return this.Fullname;
+		}
 
-        public virtual decimal CalculateSalary (bool IsFullTime)
-        {   
-            decimal hourValue = IsFullTime ? 50 : 40;
-            return hourValue * (HoursWorked + ExtraHours);
-        } 
+		///  La palabra clave virtual se utiliza para declarar un método en una clase base que puede ser anulado (override) por las clases derivadas
+		public abstract decimal CalculateSalary();
+
     }
 }
