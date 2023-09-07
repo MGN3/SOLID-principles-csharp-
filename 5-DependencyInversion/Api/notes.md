@@ -1,6 +1,7 @@
 # Dependency Inversion principle
 
 The key seems to be:
+
 	1- Create an interface in a class
 	2- Add those interfaces in another class as atributes
 	3- The constructor will have to take these attributes into account.
