@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "DependencyInversion.csproj", "{113FD2C1-FB85-428D-B483-F423C6F76C57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.Tests", "..\Api.Tests\Api.Tests.csproj", "{D3F95BEF-6ACD-45B5-855C-6306F2FD6FF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{113FD2C1-FB85-428D-B483-F423C6F76C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113FD2C1-FB85-428D-B483-F423C6F76C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113FD2C1-FB85-428D-B483-F423C6F76C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113FD2C1-FB85-428D-B483-F423C6F76C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F95BEF-6ACD-45B5-855C-6306F2FD6FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F95BEF-6ACD-45B5-855C-6306F2FD6FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F95BEF-6ACD-45B5-855C-6306F2FD6FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F95BEF-6ACD-45B5-855C-6306F2FD6FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {522F958E-85AB-4E76-A8F5-FB27879CD611}
+	EndGlobalSection
+EndGlobal
