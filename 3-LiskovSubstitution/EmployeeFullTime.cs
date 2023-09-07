@@ -7,7 +7,7 @@ namespace Liskov {
 
 		public override decimal CalculateSalary() {
 			decimal hourValue = 50;
-
+			
 			return hourValue * (HoursWorked + ExtraHours);
 		}
 	}

@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace InterfaceSegregation {
-	public interface IActivities : IWorkTeamActivities, IDesignActivities, IDevelopActivities, ITestActivities{
+	public interface IDesignActivities {
+
+		void Design();
 	}
 }
